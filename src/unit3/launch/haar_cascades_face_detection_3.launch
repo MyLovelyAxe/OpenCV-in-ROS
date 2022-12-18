@@ -1,0 +1,6 @@
+<launch>
+    <!-- manully adjust the pose of drone to make sure a face shows in front of camera -->
+    <node name="teleop_twist_keyboard" pkg="unit3" type="flying_drone_manully.py" output="screen" />
+    <!-- apply detection -->
+    <node name="haar_cascades_face_detection_3_node" pkg="unit3" type="haar_cascades_face_detection_3.py" output="screen" />
+</launch>

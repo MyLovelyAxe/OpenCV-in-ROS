@@ -1,0 +1,9 @@
+<launch>
+    <!-- make the drone follow the simulated man -->
+    <node name="hector_test" pkg="unit3" type="flying_drone3_2.py" output="screen" />
+    <!-- apply HOG detection -->
+    <node name="HOG_people_detection_2_node" pkg="unit3" type="HOG_people_detection_2.py" output="screen" />
+</launch>
+
+<!-- move the simulated man by: -->
+<!-- roslaunch person_sim move_person_standing.launch -->

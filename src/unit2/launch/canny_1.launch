@@ -1,0 +1,3 @@
+<launch>
+    <node name = "canny_1_node" pkg = "unit2" type = "canny_1.py" output = "screen" />
+</launch>

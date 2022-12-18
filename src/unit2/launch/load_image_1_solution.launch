@@ -1,0 +1,3 @@
+<launch>
+    <node name="load_image_1_solution_node" pkg="unit2" type="load_image_1_solution.py" output="screen" />
+</launch>

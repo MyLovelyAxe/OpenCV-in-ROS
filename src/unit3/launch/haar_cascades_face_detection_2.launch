@@ -1,0 +1,3 @@
+<launch>
+    <node name="haar_cascades_face_detection_2_node" pkg="unit3" type="haar_cascades_face_detection_2.py" output="screen" />
+</launch>

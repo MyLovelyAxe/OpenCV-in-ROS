@@ -1,0 +1,4 @@
+<launch>
+    <!-- move the robot -->
+    <include file="/home/simulations/public_sim_ws/src/all/rosbot_husarion/rosbot_navigation/launch/rosbot_teleop.launch" />
+</launch>

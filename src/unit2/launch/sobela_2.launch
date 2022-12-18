@@ -1,0 +1,3 @@
+<launch>
+    <node name="sobela_2_node" pkg="unit2" type="sobela_2.py" output="screen" />
+</launch>

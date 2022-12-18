@@ -1,0 +1,3 @@
+<launch>
+    <node name="tags_2_node" pkg="unit5" type="tags_2.py" output="screen" />
+</launch>

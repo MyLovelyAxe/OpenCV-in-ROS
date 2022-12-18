@@ -1,0 +1,3 @@
+<launch>
+    <node name="take_picture_node" pkg="unit4" type="take_picture.py" output="screen" />
+</launch>

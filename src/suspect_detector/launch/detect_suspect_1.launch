@@ -1,0 +1,4 @@
+<launch>
+    <!-- detect suspect -->
+    <node name="detect_suspect_1_node" pkg="suspect_detector" type="detect_suspect_1.py" output="screen" />
+</launch>
